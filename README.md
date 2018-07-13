@@ -55,5 +55,50 @@ We are going to use a total of `seven approaches` for recommending the apparel a
 
 3. [Trained Word2Vec Model](https://drive.google.com/file/d/1FByX9HSM8KhNL0rdp3jWD_xpmbVt8Dy0/view?usp=sharing)
 
-4.
+4.Trained CNN Model
 
+[16k_data_featues_asins ](https://drive.google.com/file/d/1C1wesaQzomPVNcYp0MpW8Tn7Xuk2ugZf/view?usp=sharing)
+
+[16k_data_cnn_featues.npy](https://drive.google.com/file/d/1cQ7HJYfhJjYSN1I1wi_4ejl9AaW78uTJ/view?usp=sharing)
+
+##Software Requirments
+
+1.Install [Anaconda](https://www.anaconda.com/download/#linux) with following extra packages
+	[tensorflow](https://www.tensorflow.org/)
+	[plotly](https://plot.ly/)
+	[PIL](https://pillow.readthedocs.io/en/5.2.x/)
+
+2.GPU for training the [Convolution neural networks model](https://en.wikipedia.org/wiki/Convolutional_neural_network) and [word2vec model](https://en.wikipedia.org/wiki/Word2vec).
+
+##Execution and Running Code
+
+1.Open the terminal and clone this repository by exectuting git clone https://github.com/Abhinav1004/Apparel-Recommendation.git
+
+2.Run the jupyter notebook by jupyter notebook Apparel_Recommendation.ipynb
+
+3.Start executing the cells by Shift+Enter
+
+##Observation
+
+1.We trained the seven models and recommended similar top 20 apparels with the least [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) for each model.
+
+2.We calculated the average euclidean distance for each model by taking the mean and compared them using the line plot and bar graph
+
+##Result
+
+We found that the order of the best recommendation performance is as follows 
+```
+1.TF-IDF
+
+2,AVERAGE WORD2VEC
+
+3.BAG OF WORDS
+
+4.BRAND AND COLOR
+
+5.WEIGHTED WORD2VEC
+
+6.IDF
+
+7.CNN
+```
