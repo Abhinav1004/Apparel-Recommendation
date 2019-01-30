@@ -49,17 +49,17 @@ We are going to use a total of `seven approaches` for recommending the apparel a
 
 ## DATASETS AND INPUTS
 
-* [tops_fashion.json](https://drive.google.com/file/d/11ch_27I3oqGlu-VhYyWJmEk6nLO3wdRE/view?usp=sharing)
+* **[tops_fashion.json](https://www.kaggle.com/ajaysh/women-apparel-recommendation-engine-amazoncom#tops_fashion.json)**
 
-* [16k_apparel_preprocessed pickle file](https://drive.google.com/open?id=1yDZDY2Y-4VvPSxJeCyPhqhxfNtAW9e6j)
+* [16k_apparel_preprocessed pickle file](https://drive.google.com/drive/u/1/folders/0BwNkduBnePt2VWhCYXhMV3p4dTg)
 
-* [Trained Word2Vec Model](https://drive.google.com/file/d/1FByX9HSM8KhNL0rdp3jWD_xpmbVt8Dy0/view?usp=sharing)
+* [Trained Word2Vec Model](https://drive.google.com/drive/u/1/folders/0BwNkduBnePt2VWhCYXhMV3p4dTg)
 
 * Trained CNN Model
 
-	* [16k_data_featues_asins ](https://drive.google.com/file/d/1C1wesaQzomPVNcYp0MpW8Tn7Xuk2ugZf/view?usp=sharing)
+	* [16k_data_featues_asins ](https://drive.google.com/drive/u/1/folders/0BwNkduBnePt2VWhCYXhMV3p4dTg)
 
-	* [16k_data_cnn_featues.npy](https://drive.google.com/file/d/1cQ7HJYfhJjYSN1I1wi_4ejl9AaW78uTJ/view?usp=sharing)
+	* [16k_data_cnn_featues.npy](https://drive.google.com/drive/u/1/folders/0BwNkduBnePt2VWhCYXhMV3p4dTg)
 
 ## Software Requirments
 
